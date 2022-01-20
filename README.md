@@ -26,10 +26,10 @@
 >Check out the output of the script [here](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/commands%20To%20append%20the%20output%20to%20a%20file%20.png)<br>
 
 ## CONDITIONAL STATEMENTS
-[Reference Script]()
+[Reference Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/helloScript.sh)
 ### if-else-elseif
->Checkout the [script]() for the if-else and its respective output as well.
+>Checkout the [script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/1_If_else.png) for the if-else and its respective output as well.
 
 ### if-else with && operator
->Checkout the [script]() for the if-else-and-operator and its respective output as well.
+>Checkout the [script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/2_if_else_and.png) for the if-else-and-operator and its respective output as well.
 
