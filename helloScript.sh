@@ -2,7 +2,7 @@
 
 #echo -n "Enter a Number"
 #read count
-#Both the scripts below work just fine we can use either one of the syntaxes or formats
+#Both the scripts below work just fine we can use either one of the syntax or format
 
 
 #if [[ $count -eq 1 ]] 
@@ -15,7 +15,7 @@
 #   echo "The Conditon is not true"
 #fi
 
-#(( condition )) this syntax does not support equal to syntax
+#(( condition )) this syntax does not support equal to syntax '-eq'
 
 #if (( $count < 5 ));
 #then 			#-eq stands for equal
@@ -30,8 +30,8 @@
 echo -n "Enter the Age:"
 read age
 
-#if [[ "age" -lt 40 ]] && [[ "age" -gt 18 ]]
-if [[ "age" -lt 40 && "age" -gt 18 ]]
+#if [[ "age" -lt 40 ]] && [[ "age" -gt 18 ]]			#Multiple ways to write the same if statements use either one
+if [[ "age" -lt 40 && "age" -gt 18 ]]					#Multiple ways to write the same if statements use either one
 then
 	echo "Age is correct"
 else
