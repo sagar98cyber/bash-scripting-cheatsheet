@@ -11,5 +11,5 @@
 >Checkout [Command 3](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/types-of-shells-and-loc/bash%20scripting%20available%20and%20their%20types.png) and its output
 
 ## <b>Writing my First Bash Script<b></b>
->Checkout my First Script first\![Script]()
->Checkout how I traversed and stored it in the Desktop and how I gave it the execution command and executed it[Commands]()
+>Checkout my First Script first\! [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/running-first-shell/Bash%20Script%20Scripting.png)
+>Checkout how I traversed and stored it in the Desktop and how I gave it the execution command and executed it [Commands](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/running-first-shell/First%20Bash%20Script.png)
