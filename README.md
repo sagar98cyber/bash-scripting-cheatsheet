@@ -23,4 +23,4 @@
 >Output for the same [Output](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/OP%20of%20-%20Wrinting%20an%20output%20to%20a%20file%20via%20terminal.jpg)
 #### NOTE: Press Ctrl-D after finishing the cat on terminal to save it
 >To append the output of the script in the file use <b> '>>' </b>. [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/To%20append%20the%20output%20to%20a%20file.png)
->Check out the output of the script [here]()<br>
+>Check out the output of the script [here](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/commands%20To%20append%20the%20output%20to%20a%20file%20.png)<br>
