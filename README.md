@@ -33,3 +33,11 @@
 ### if-else with && operator
 >Checkout the [script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/2_if_else_and.png) for the if-else-and-operator and its respective output as well.
 
+
+### if-else with || operator
+>Checkout the [script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/3_if_else_or.png) for the if-else-or-operator and its respective output as well.
+
+### switch-Case
+>Checkout the SWITCH CASE and its respective output as well.<br>
+>[Script 1](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/3_if_else_or.png)
+>[Script 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/3_if_else_or.png)
