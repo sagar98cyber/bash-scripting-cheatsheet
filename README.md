@@ -89,3 +89,7 @@
 ### reading a file content from a file without stdin
 >To read a file content without the use of '${1:-/dev/stdin}', just replace '${1:-/dev/stdin}' with the filename. <br>
 >[Example]() where file.txt has been replaced at the location of the file
+
+### "stdop" and "stderr" writing the output or an error of a script into a file
+>ls -al 1>fileOUTPUT.txt 2>fileErr.txt <br>
+>For this refer this [VIDEO](https://www.youtube.com/watch?v=e7BufAVwDiM&t=3300s) from time 57:04-1:02:00
