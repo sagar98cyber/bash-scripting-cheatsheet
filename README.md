@@ -82,8 +82,8 @@
 
 ### reading a file content from a file using /dev/stdin
 >To read a file content as an argument from the terminal '${1:-/dev/stdin}'. <br>
->[Example 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/4_Reading%20a%20File%20Content%20with%20STDIN.png) where file.txt is given as an argument
-#### NOTE: If any file name is not passed as an argument then the script acts as a cat for the terminal
+>[Example 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/4_Reading%20a%20File%20Content%20with%20STDIN.png) here file.txt is given as an argument<br>
+> <b>NOTE:</b> If any file name is not passed as an argument then the script acts as a cat for the terminal
 >[Example 1](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/4_Reading%20a%20File%20Content%20with%20STDIN.png) where there is no filename passed as an argument
 
 ### reading a file content from a file without stdin
