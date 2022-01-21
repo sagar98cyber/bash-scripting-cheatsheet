@@ -82,13 +82,13 @@
 
 ### reading a file content from a file using /dev/stdin
 >To read a file content as an argument from the terminal '${1:-/dev/stdin}'. <br>
->[Example 2]() where file.txt is given as an argument
+>[Example 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/4_Reading%20a%20File%20Content%20with%20STDIN.png) where file.txt is given as an argument
 #### NOTE: If any file name is not passed as an argument then the script acts as a cat for the terminal
->[Example 1]() where there is no filename passed as an argument
+>[Example 1](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/4_Reading%20a%20File%20Content%20with%20STDIN.png) where there is no filename passed as an argument
 
 ### reading a file content from a file without stdin
 >To read a file content without the use of '${1:-/dev/stdin}', just replace '${1:-/dev/stdin}' with the filename. <br>
->[Example]() where file.txt has been replaced at the location of the file
+>[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/5%20Reading%20a%20file%20without%20STDIN.png) where file.txt has been replaced at the location of the file
 
 ### "stdop" and "stderr" writing the output or an error of a script into a file
 >ls -al 1>fileOUTPUT.txt 2>fileErr.txt <br>
