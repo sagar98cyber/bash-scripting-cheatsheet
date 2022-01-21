@@ -66,12 +66,22 @@
 ## Script I/O Statements
 ### Taking inputs from User
 >Bounded number of inputs can taken from the user through terminal.<br>
->[Example]()
+>[Exameple](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/1%20Unpacking%20from%20terminal.png)
 
 ### Taking unbounded inputs from User
 >Bounded number of inputs can taken from the user through terminal.<br>
->[Example]()
+>[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/2%20N%20Number%20of%20Arguments.png)
 
 ### echo $# to print out the length of the array
 >To find out the length of the array we use the command 'echo #$'. <br>
->[Example]()
+>[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/3%20FINDING%20OUT%20THE%20LENGTH%20OF%20THE%20ARRAY.png)
+
+### echo $# to print out the length of the array
+>To find out the length of the array we use the command 'echo #$'. <br>
+>[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/3%20FINDING%20OUT%20THE%20LENGTH%20OF%20THE%20ARRAY.png)
+
+### reading a file content from a file using /dev/stdin
+>To read a file content as an argument from the terminal '${1:-/dev/stdin}'. <br>
+>[Example 2]() where file.txt is given as an argument
+#### NOTE: If any file name is not passed as an argument then the script acts as a cat for the terminal
+>[Example 1]() where there is no filename passed as an argument
