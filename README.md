@@ -45,20 +45,20 @@
 ## Looping Statements
 ### While Loops
 >While loops run until the condition is false.<br>
->To use while loops [Example]()
+>To use while loops [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/looping/1_WHILE%20LOOPS.png)
 
 ### Until Loops
 >Until Loops run until the condition is true.<br>
->To use until loops [Example]()
+>To use until loops [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/looping/2_UNTIL%20LOOPS.png)
 
 ### For Loops
 >There are multiple ways of runnning a FOR Loop:<br>
->[Example 1]()<br>
->[Example 2]()<br>
->[Example 3]()<br>
+>Normal loop. [Example 1](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/looping/3%20FOR%20LOOPS.png)<br>
+>Normal loop with a step function. [Example 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/looping/4%20FOR%20LOOPS%20WITH%20STEP%20FUNCTION.png)<br>
+>Traditional For Loop[Example 3](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/looping/5%20FOR%20LOOPS%20TRADITIONAL.png)<br>
 
 ### Break Statement in Loops
->Break Statement stops the entire execution of the loop and exits the loop.<br> [Example]()
+>Break Statement stops the entire execution of the loop and exits the loop.<br> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/looping/6%20BREAK%20STATEMENT%20FOR%20LOOPS%20.png)
 
 ### Continue Statement in Loops
->Where the Break Statement stops the entire execution of the loops and exits the loop, the continue statement only skips that one specific iteration of the loops and continues it execution further. <br> [Example]()
+>Where the Break Statement stops the entire execution of the loops and exits the loop, the continue statement only skips that one specific iteration of the loops and continues it execution further. <br> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/looping/7%20CONTINUE%20STATEMENT%20IN%20LOOPS.png)
