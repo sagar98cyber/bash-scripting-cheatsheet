@@ -86,10 +86,17 @@
 > <b>NOTE:</b> If any file name is not passed as an argument then the script acts as a cat for the terminal
 >[Example 1](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/4_Reading%20a%20File%20Content%20with%20STDIN.png) where there is no filename passed as an argument
 
+## Pipes
+>Pipes are also known as - "Send inputs of one script to another script"
+### First PIPES script
+>Sending a message from one scripts output as an input to another script.<br>
+>[Example]()
+
+
 ### reading a file content from a file without stdin
 >To read a file content without the use of '${1:-/dev/stdin}', just replace '${1:-/dev/stdin}' with the filename. <br>
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/5%20Reading%20a%20file%20without%20STDIN.png) where file.txt has been replaced at the location of the file
 
 ### "stdop" and "stderr" writing the output or an error of a script into a file
 >ls -al 1>fileOUTPUT.txt 2>fileErr.txt <br>
->For this refer this [VIDEO](https://www.youtube.com/watch?v=e7BufAVwDiM&t=3300s) from time 57:04-1:02:00
+>For this refer this [VIDEO](https://youtu.be/e7BufAVwDiM?t=3421) from time 57:04-1:02:00
