@@ -85,3 +85,7 @@
 >[Example 2]() where file.txt is given as an argument
 #### NOTE: If any file name is not passed as an argument then the script acts as a cat for the terminal
 >[Example 1]() where there is no filename passed as an argument
+
+### reading a file content from a file without stdin
+>To read a file content without the use of '${1:-/dev/stdin}', just replace '${1:-/dev/stdin}' with the filename. <br>
+>[Example]() where file.txt has been replaced at the location of the file
