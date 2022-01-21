@@ -39,5 +39,5 @@
 
 ### switch-Case
 >Checkout the SWITCH CASE and its respective output as well.<br>
->[Script 1](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/3_if_else_or.png)
->[Script 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/3_if_else_or.png)
+>[Script 1](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/4_Switch_Case_1.png)<br>
+>[Script 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/5_switch_case_2.png)
