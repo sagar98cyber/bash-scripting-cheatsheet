@@ -41,3 +41,24 @@
 >Checkout the SWITCH CASE and its respective output as well.<br>
 >[Script 1](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/4_Switch_Case_1.png)<br>
 >[Script 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/5_switch_case_2.png)
+
+## Looping Statements
+### While Loops
+>While loops run until the condition is false.<br>
+>To use while loops [Example]()
+
+### Until Loops
+>Until Loops run until the condition is true.<br>
+>To use until loops [Example]()
+
+### For Loops
+>There are multiple ways of runnning a FOR Loop:<br>
+>[Example 1]()<br>
+>[Example 2]()<br>
+>[Example 3]()<br>
+
+### Break Statement in Loops
+>Break Statement stops the entire execution of the loop and exits the loop.<br> [Example]()
+
+### Continue Statement in Loops
+>Where the Break Statement stops the entire execution of the loops and exits the loop, the continue statement only skips that one specific iteration of the loops and continues it execution further. <br> [Example]()
