@@ -62,3 +62,16 @@
 
 ### Continue Statement in Loops
 >Where the Break Statement stops the entire execution of the loops and exits the loop, the continue statement only skips that one specific iteration of the loops and continues it execution further. <br> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/looping/7%20CONTINUE%20STATEMENT%20IN%20LOOPS.png)
+
+## Script I/O Statements
+### Taking inputs from User
+>Bounded number of inputs can taken from the user through terminal.<br>
+>[Example]()
+
+### Taking unbounded inputs from User
+>Bounded number of inputs can taken from the user through terminal.<br>
+>[Example]()
+
+### echo $# to print out the length of the array
+>To find out the length of the array we use the command 'echo #$'. <br>
+>[Example]()
