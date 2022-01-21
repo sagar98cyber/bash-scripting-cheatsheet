@@ -99,3 +99,18 @@
 ### First PIPES script
 >Sending a message from one scripts output as an input to another script.<br>
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/pipes/PIPES.png)
+
+## String Processing or Manupilation
+### First String processing script
+>Checking if the Strings are equal or not.<br>
+>[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/string-processing/1%20String%20Processing.png)
+
+### Check to see if the strings are of the same sizes or not
+>'/>' and '</' are the two operators required for checking if the string is of the smaller or greater size.<br>
+>[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/string-processing/2%20Strings%20Comparison.png)
+
+### Concetinating two strings
+>[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/string-processing/3%20String%20Concatenation.png)
+
+### Changing cases of some two strings - Sentence Case, Upper Case
+>[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/string-processing/4%20LowerCase%20UpperCase.png)
