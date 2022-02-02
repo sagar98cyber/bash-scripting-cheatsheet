@@ -114,3 +114,10 @@
 
 ### Changing cases of some two strings - Sentence Case, Upper Case
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/string-processing/4%20LowerCase%20UpperCase.png)
+
+
+## Numbers and Arithmetic
+### [First Program]()
+
+# NOTES
+> To save and get out of anything press **Ctrl+D** 
