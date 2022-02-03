@@ -9,10 +9,12 @@
 > <b>which bash</b></br>
 >This command gives you the location of bash which you have to include in the bash script
 >Checkout [Command 3](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/types-of-shells-and-loc/bash%20scripting%20available%20and%20their%20types.png) and its output
+<br>
 
 ## <b>Writing my First Bash Script<b></b>
 >First Script\! [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/running-first-shell/Bash%20Script%20Scripting.png)
 >Traversing and storing it in the Desktop and gaving it the execution command and executing it [Commands](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/running-first-shell/First%20Bash%20Script.png)
+<br>
 
 ## Redirection of a file
 ### Writing the output of a file into another file
@@ -24,6 +26,7 @@
 >#### NOTE: Press Ctrl-D after finishing the cat on terminal to save it
 >To append the output of the script in the file use <b> '>>' </b>. [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/To%20append%20the%20output%20to%20a%20file.png)
 >Check out the output of the script [here](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/commands%20To%20append%20the%20output%20to%20a%20file%20.png)<br>
+<br>
 
 ## CONDITIONAL STATEMENTS
 [Reference Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/helloScript.sh)
@@ -41,6 +44,7 @@
 >Checkout the SWITCH CASE and its respective output as well.<br>
 >[Script 1](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/4_Switch_Case_1.png)<br>
 >[Script 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/5_switch_case_2.png)
+<br>
 
 ## Looping Statements
 ### While Loops
@@ -62,6 +66,7 @@
 
 ### Continue Statement in Loops
 >Where the Break Statement stops the entire execution of the loops and exits the loop, the continue statement only skips that one specific iteration of the loops and continues it execution further. <br> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/looping/7%20CONTINUE%20STATEMENT%20IN%20LOOPS.png)
+<br>
 
 ## Script I/O Statements
 ### Taking inputs from User
@@ -71,10 +76,6 @@
 ### Taking unbounded inputs from User
 >Bounded number of inputs can taken from the user through terminal.<br>
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/2%20N%20Number%20of%20Arguments.png)
-
-### echo $# to print out the length of the array
->To find out the length of the array we use the command 'echo #$'. <br>
->[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/3%20FINDING%20OUT%20THE%20LENGTH%20OF%20THE%20ARRAY.png)
 
 ### echo $# to print out the length of the array
 >To find out the length of the array we use the command 'echo #$'. <br>
@@ -93,12 +94,14 @@
 ### "stdop" and "stderr" writing the output or an error of a script into a file
 >ls -al 1>fileOUTPUT.txt 2>fileErr.txt <br>
 >For this refer this [VIDEO](https://youtu.be/e7BufAVwDiM?t=3421) from time 57:04-1:02:00
+<br>
 
 ## Pipes
 >Pipes are also known as - "Send inputs of one script to another script"
 ### First PIPES script
 >Sending a message from one scripts output as an input to another script.<br>
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/pipes/PIPES.png)
+<br>
 
 ## String Processing or Manupilation
 ### First String processing script
@@ -114,10 +117,13 @@
 
 ### Changing cases of some two strings - Sentence Case, Upper Case
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/string-processing/4%20LowerCase%20UpperCase.png)
-
+<br>
 
 ## Numbers and Arithmetic
-### [First Program]()
+### [First Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/numbers-and-arthimetic/1%20Numeric%20Operation%20First%20Prog.png)
+### [Second Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/numbers-and-arthimetic/2%20Numeric%20Operation%20First%20Prog%20Second%20way.png)
+<br>
+<br>
 
 # NOTES
 > To save and get out of anything press **Ctrl+D** 
