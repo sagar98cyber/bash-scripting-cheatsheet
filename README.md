@@ -11,7 +11,7 @@ cat /etc/shells
 ``` 
 which bash
 ```
->This command gives you the location of bash which you have to include in the bash script
+>This command gives you the location of bash which you have to include in the bash script<br>
 >Checkout [Command 3](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/types-of-shells-and-loc/bash%20scripting%20available%20and%20their%20types.png) and its output
 <br>
 
@@ -25,10 +25,10 @@ which bash
 >To write the output of a file into another file. Here is how you do it\! [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/Wrinting%20an%20output%20to%20a%20file.png)
 
 ### Taking the input from terminal and writing the output into another file
->To write into another file with scripting, here is how you do it\! [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/Wrinting%20an%20output%20to%20a%20file%20via%20terminal.png)
->Output for the same [Output](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/OP%20of%20-%20Wrinting%20an%20output%20to%20a%20file%20via%20terminal.jpg)
+>To write into another file with scripting, here is how you do it\! [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/Wrinting%20an%20output%20to%20a%20file%20via%20terminal.png)<br>
+>Output for the same [Output](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/OP%20of%20-%20Wrinting%20an%20output%20to%20a%20file%20via%20terminal.jpg)<br>
 >#### NOTE: Press Ctrl-D after finishing the cat on terminal to save it
->To append the output of the script in the file use <b> '>>' </b>. [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/To%20append%20the%20output%20to%20a%20file.png)
+>To append the output of the script in the file use <b> '>>' </b>. [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/To%20append%20the%20output%20to%20a%20file.png)<br>
 >Check out the output of the script [here](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/commands%20To%20append%20the%20output%20to%20a%20file%20.png)<br>
 <br>
 
@@ -88,7 +88,7 @@ which bash
 ### reading a file content from a file using /dev/stdin
 >To read a file content as an argument from the terminal '${1:-/dev/stdin}'. <br>
 >[Example 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/4_Reading%20a%20File%20Content%20with%20STDIN.png) here file.txt is given as an argument<br>
-> <b>**NOTE:**</b> If any file name is not passed as an argument then the script acts as a cat for the terminal
+> <b>**NOTE:**</b> If any file name is not passed as an argument then the script acts as a cat for the terminal<br>
 >[Example 1](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/4_Reading%20a%20File%20Content%20with%20STDIN.png) where there is no filename passed as an argument
 
 ### reading a file content from a file without stdin
@@ -126,7 +126,7 @@ ls -al 1>fileOUTPUT.txt 2>fileErr.txt
 <br>
 
 ## NUMBERS AND ARTHIMETIC
-> [First Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/numbers-and-arthimetic/1%20Numeric%20Operation%20First%20Prog.png)
+> [First Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/numbers-and-arthimetic/1%20Numeric%20Operation%20First%20Prog.png)<br>
 > [Second Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/numbers-and-arthimetic/2%20Numeric%20Operation%20First%20Prog%20Second%20way.png)
 <br>
 
@@ -151,15 +151,19 @@ declare -r psswdLocation = /etc/passwd
 <br>
 
 ## ARRAYS
+> Syntax for declaring an Array<br>
 ```
 variableName = ('Value1','Value2','Value3')
 ```
-> Syntax for declaring an Array
-> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/arrays/array.png)
-> At line number 6 we use the '!' operator to print the index of the elements
-> Line 7 shows how to find out the size of the array
+> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/arrays/array.png)<br>
+> At line number 6 we use the '!' operator to print the index of the elements<br>
+> Line 7 shows how to find out the size of the array<br>
 > We use unset method to discard the value at the index 1 
 <br>
+<br>
+
+## FUNCTIONS
+> [First](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/functions/1_Function.png) function example shows how to define and call a function<br> [Second](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/functions/2_Function.png) function example shows how to define and call an argumentative function<br>
 
 # NOTES
 > To save and get out of anything press **Ctrl+D** 
