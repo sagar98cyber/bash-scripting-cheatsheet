@@ -16,7 +16,7 @@
 >Traversing and storing it in the Desktop and gaving it the execution command and executing it [Commands](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/running-first-shell/First%20Bash%20Script.png)
 <br>
 
-## Redirection of a file
+## REDIRECTION OF FILES
 ### Writing the output of a file into another file
 >To write the output of a file into another file. Here is how you do it\! [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/redirection-of-files/Wrinting%20an%20output%20to%20a%20file.png)
 
@@ -46,7 +46,7 @@
 >[Script 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/conditional-statements/5_switch_case_2.png)
 <br>
 
-## Looping Statements
+## LOOPING STATEMENTS
 ### While Loops
 >While loops run until the condition is false.<br>
 >To use while loops [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/looping/1_WHILE%20LOOPS.png)
@@ -68,7 +68,7 @@
 >Where the Break Statement stops the entire execution of the loops and exits the loop, the continue statement only skips that one specific iteration of the loops and continues it execution further. <br> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/looping/7%20CONTINUE%20STATEMENT%20IN%20LOOPS.png)
 <br>
 
-## Script I/O Statements
+## SCRIPT I/O STATEMENTS
 ### Taking inputs from User
 >Bounded number of inputs can taken from the user through terminal.<br>
 >[Exameple](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/1%20Unpacking%20from%20terminal.png)
@@ -96,14 +96,14 @@
 >For this refer this [VIDEO](https://youtu.be/e7BufAVwDiM?t=3421) from time 57:04-1:02:00
 <br>
 
-## Pipes
+## PIPES
 >Pipes are also known as - "Send inputs of one script to another script"
 ### First PIPES script
 >Sending a message from one scripts output as an input to another script.<br>
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/pipes/PIPES.png)
 <br>
 
-## String Processing or Manupilation
+## STRING PROCESSING OR MANUPILATION
 ### First String processing script
 >Checking if the Strings are equal or not.<br>
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/string-processing/1%20String%20Processing.png)
@@ -119,7 +119,7 @@
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/string-processing/4%20LowerCase%20UpperCase.png)
 <br>
 
-## Numbers and Arithmetic
+## NUMBERS AND ARTHIMETIC
 ### [First Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/numbers-and-arthimetic/1%20Numeric%20Operation%20First%20Prog.png)
 ### [Second Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/numbers-and-arthimetic/2%20Numeric%20Operation%20First%20Prog%20Second%20way.png)
 <br>
