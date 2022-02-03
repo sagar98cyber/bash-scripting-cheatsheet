@@ -165,5 +165,20 @@ variableName = ('Value1','Value2','Value3')
 > [First](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/functions/1_Function.png) function example shows how to define and call a function<br> [Second](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/functions/2_Function.png) function example shows how to define and call an argumentative function<br>
 <br>
 
+## FILES AND DIRECTORIES
+```
+mkdir -p <directory-name> 
+```
+>Using mkdir command in the script to create a new directory in the current directory<br>[Example]()
+### To check if the directory exists or not
+> [Script]()<br>
+### To create file with a parameter name
+> [Script]()<br>
+### To create a file if does not exist and then appending the data in the file
+> [Script]()<br>
+### To read from a file if it exist
+> [Script]()<br>
+<br>
+
 # NOTES
 > To save and get out of anything press **Ctrl+D** 
