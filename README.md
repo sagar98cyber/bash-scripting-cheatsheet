@@ -180,5 +180,25 @@ mkdir -p <directory-name>
 > [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/5reading%20froma%20file.png)<br>
 <br>
 
+## SENDING MAIL THROUGH BASH SCRIPT
+>First of all we need to install smtp service which stands for (SIMPLE MAIL TRANSFER PROTOCOL), use the below command to do so
+```
+sudo apt install ssmtp
+```
+> After the installation go to you email and turn on *'Access for less secure apps'* from the account settings.<br> After that we shall configure our smtp config file which will have the ID and PASSWORD and other login credentials.<br> Use the below command to open the smtp config file:
+```
+gedit etc/ssmtp/ssmtp.conf
+```
+>It shall open the config file<br> Type the below code and replace the details with your details accordingly:
+```
+root = yourEmail@domain.extension
+mailhub = smtp.domain.extension:587
+AuthUser = yourEmail@domain.extension
+AuthPass = yourPassword
+UseSTARTTLS = yes
+```
+>[Example for the same]()<br> Press *Ctrl+D* to save and exit the editor and to back to the terminal.<br> After that now that we have configured the ssmtp config file we can begin writing our [script]()
+<br>
+
 # NOTES
 > To save and get out of anything press **Ctrl+D** 
