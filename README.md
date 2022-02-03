@@ -169,15 +169,15 @@ variableName = ('Value1','Value2','Value3')
 ```
 mkdir -p <directory-name> 
 ```
->Using mkdir command in the script to create a new directory in the current directory<br>[Example]()
+>Using mkdir command in the script to create a new directory in the current directory<br>[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/1.png)
 ### To check if the directory exists or not
-> [Script]()<br>
+> [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/2_check%20if%20the%20dir%20exists.png)<br>
 ### To create file with a parameter name
-> [Script]()<br>
+> [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/3creating%20file.png)<br>
 ### To create a file if does not exist and then appending the data in the file
-> [Script]()<br>
+> [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/4creating%20file.png)<br>
 ### To read from a file if it exist
-> [Script]()<br>
+> [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/5reading%20froma%20file.png)<br>
 <br>
 
 # NOTES
