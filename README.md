@@ -126,9 +126,28 @@ ls -al 1>fileOUTPUT.txt 2>fileErr.txt
 <br>
 
 ## NUMBERS AND ARTHIMETIC
-### [First Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/numbers-and-arthimetic/1%20Numeric%20Operation%20First%20Prog.png)
-### [Second Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/numbers-and-arthimetic/2%20Numeric%20Operation%20First%20Prog%20Second%20way.png)
+> [First Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/numbers-and-arthimetic/1%20Numeric%20Operation%20First%20Prog.png)
+> [Second Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/numbers-and-arthimetic/2%20Numeric%20Operation%20First%20Prog%20Second%20way.png)
 <br>
+
+## DECLARE COMMAND - declare variables
+```
+declare <Variable-name> = <value>
+```
+> *declare* command is used to declare a variable.
+> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/declare-command/1_declaring%20a%20var%20traditionally.png)
+### Displaying all the declared variables in the past
+```
+declare -p 
+```
+> This command gives you the output and shows you all the previously declared variables.
+> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/declare-command/2_seeing%20all%20the%20declared%20var.png)
+### Declaring the variable and making it read only so that it cannot be modified
+```
+declare -r psswdLocation = /etc/passwd 
+```
+> declaring the variable with -r converts a traditional variable to a read-only variable
+> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/declare-command/3_declaring%20a%20readonly%20var.png)
 <br>
 
 # NOTES
