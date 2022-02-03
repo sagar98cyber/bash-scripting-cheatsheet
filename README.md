@@ -141,7 +141,7 @@ declare <Variable-name> = <value>
 declare -p 
 ```
 > This command gives you the output and shows you all the previously declared variables.
-> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/declare-command/2_seeing%20all%20the%20declared%20var.png)
+> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/declare-command/2_seeing%20all%20the%20declared%20variables.png)
 ### Declaring the variable and making it read only so that it cannot be modified
 ```
 declare -r psswdLocation = /etc/passwd 
