@@ -197,7 +197,7 @@ AuthUser = yourEmail@domain.extension
 AuthPass = yourPassword
 UseSTARTTLS = yes
 ```
->[Example for the same]()<br> Press *Ctrl+D* to save and exit the editor and to back to the terminal.<br> After that now that we have configured the ssmtp config file we can begin writing our [script]()
+>[Example for the same](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/ssmtp.conf)<br> Save and exit the editor and to back to the terminal.<br> After that now that we have configured the ssmtp config file we can begin writing our [script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/1_mailScript.sh)
 <br>
 
 # NOTES
