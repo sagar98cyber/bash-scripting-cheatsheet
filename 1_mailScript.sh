@@ -1,3 +1,3 @@
 #! /usr/bin/bash
 
-ssmtp workcyspace@gmail.com
+ssmtp youremail@domain.extension
