@@ -150,5 +150,14 @@ declare -r psswdLocation = /etc/passwd
 > [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/declare-command/3_declaring%20a%20readonly%20var.png)
 <br>
 
+## ARRAYS
+```
+variableName = ('Value1','Value2','Value3')
+```
+> Syntax for declaring an Array
+> [Example]()
+> At line number 6 we use the '!' operator to print the index of the elements
+<br>
+
 # NOTES
 > To save and get out of anything press **Ctrl+D** 
