@@ -1,16 +1,12 @@
 # BASH SCRIPTING CHEATSHEET
 
 ### TYPES OF SHELLS AVAILABLE
-```
-cat /etc/shells
-``` 
+> <b>cat /etc/shells</b><br> 
 >This command gives you the list of all the available shells
 >Checkout [Command 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/types-of-shells-and-loc/bash%20scripting%20available%20and%20their%20types.png)
 
 ### <b>'which < shell-script >'</b> command to get the location of a particular script
-``` 
-which bash
-```
+> <b>which bash</b></br>
 >This command gives you the location of bash which you have to include in the bash script
 >Checkout [Command 3](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/types-of-shells-and-loc/bash%20scripting%20available%20and%20their%20types.png) and its output
 <br>
@@ -88,7 +84,7 @@ which bash
 ### reading a file content from a file using /dev/stdin
 >To read a file content as an argument from the terminal '${1:-/dev/stdin}'. <br>
 >[Example 2](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/4_Reading%20a%20File%20Content%20with%20STDIN.png) here file.txt is given as an argument<br>
-> <b>**NOTE:**</b> If any file name is not passed as an argument then the script acts as a cat for the terminal
+> <b>NOTE:</b> If any file name is not passed as an argument then the script acts as a cat for the terminal
 >[Example 1](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/4_Reading%20a%20File%20Content%20with%20STDIN.png) where there is no filename passed as an argument
 
 ### reading a file content from a file without stdin
@@ -96,9 +92,7 @@ which bash
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/script-i/o/5%20Reading%20a%20file%20without%20STDIN.png) where file.txt has been replaced at the location of the file
 
 ### "stdop" and "stderr" writing the output or an error of a script into a file
-```
-ls -al 1>fileOUTPUT.txt 2>fileErr.txt
-```
+>ls -al 1>fileOUTPUT.txt 2>fileErr.txt <br>
 >For this refer this [VIDEO](https://youtu.be/e7BufAVwDiM?t=3421) from time 57:04-1:02:00
 <br>
 
@@ -115,7 +109,7 @@ ls -al 1>fileOUTPUT.txt 2>fileErr.txt
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/string-processing/1%20String%20Processing.png)
 
 ### Check to see if the strings are of the same sizes or not
-> <b>'/>'</b> and <b>'</'</b> are the two operators required for checking if the string is of the smaller or greater size.<br>
+>'/>' and '</' are the two operators required for checking if the string is of the smaller or greater size.<br>
 >[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/string-processing/2%20Strings%20Comparison.png)
 
 ### Concetinating two strings
