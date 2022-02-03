@@ -155,7 +155,7 @@ declare -r psswdLocation = /etc/passwd
 variableName = ('Value1','Value2','Value3')
 ```
 > Syntax for declaring an Array
-> [Example]()
+> [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/arrays/1_array.png)
 > At line number 6 we use the '!' operator to print the index of the elements
 <br>
 
