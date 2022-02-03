@@ -163,7 +163,7 @@ variableName = ('Value1','Value2','Value3')
 <br>
 
 ## FUNCTIONS
-> [First]() function example shows how to define and call a function<br> [Second]() function example shows how to define and call an argumentative function<br>
+> [First](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/functions/1_Function.png) function example shows how to define and call a function<br> [Second](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/functions/2_Function.png) function example shows how to define and call an argumentative function<br>
 
 # NOTES
 > To save and get out of anything press **Ctrl+D** 
