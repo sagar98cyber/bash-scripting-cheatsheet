@@ -151,16 +151,19 @@ declare -r psswdLocation = /etc/passwd
 <br>
 
 ## ARRAYS
+> Syntax for declaring an Array<br>
 ```
 variableName = ('Value1','Value2','Value3')
 ```
-> Syntax for declaring an Array<br>
 > [Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/arrays/array.png)<br>
 > At line number 6 we use the '!' operator to print the index of the elements<br>
 > Line 7 shows how to find out the size of the array<br>
 > We use unset method to discard the value at the index 1 
 <br>
 <br>
+
+## FUNCTIONS
+> [First]() function example shows how to define and call a function<br> [Second]() function example shows how to define and call an argumentative function<br>
 
 # NOTES
 > To save and get out of anything press **Ctrl+D** 
