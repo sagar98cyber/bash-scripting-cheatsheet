@@ -160,10 +160,10 @@ variableName = ('Value1','Value2','Value3')
 > Line 7 shows how to find out the size of the array<br>
 > We use unset method to discard the value at the index 1 
 <br>
-<br>
 
 ## FUNCTIONS
 > [First](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/functions/1_Function.png) function example shows how to define and call a function<br> [Second](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/functions/2_Function.png) function example shows how to define and call an argumentative function<br>
+<br>
 
 # NOTES
 > To save and get out of anything press **Ctrl+D** 
