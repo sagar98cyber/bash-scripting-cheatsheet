@@ -187,7 +187,7 @@ sudo apt install ssmtp
 ```
 > After the installation go to you email and turn on *'Access for less secure apps'* from the account settings.<br> After that we shall configure our smtp config file which will have the ID and PASSWORD and other login credentials.<br> Use the below command to open the smtp config file:
 ```
-gedit etc/ssmtp/ssmtp.conf
+gedit /etc/ssmtp/ssmtp.conf
 ```
 >It shall open the config file<br> Type the below code and replace the details with your details accordingly:
 ```
@@ -197,7 +197,14 @@ AuthUser = yourEmail@domain.extension
 AuthPass = yourPassword
 UseSTARTTLS = yes
 ```
->[Example for the same](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/ssmtp.conf)<br> Save and exit the editor and to back to the terminal.<br> After that now that we have configured the ssmtp config file we can begin writing our [script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/1_mailScript.sh)
+>[Example for the same](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/ssmtp.conf)<br> Save and exit the editor and to back to the terminal.<br> After that now that we have configured the ssmtp config file we can begin writing our [script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/1_mailScript.sh)<br>After writing the script file run the script and write the below lines to send a mail:
+```
+To: destinationEmailAddress@domain.extension
+From: yourEmail@domain.extension
+cc: testingEmail@gmail.com
+Subject: TEST
+Body: Greetings
+```
 <br>
 
 # NOTES
