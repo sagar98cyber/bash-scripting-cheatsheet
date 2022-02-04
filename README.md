@@ -308,7 +308,7 @@ done
 sudo apt install inotify-tools
 ```
 #### *NOTE*: We can either monitor the directory or file that has been created or for learning purpose include a file or a directory that has already been created
->After the installation we create a [script]() that will be used to monitor a file or a directory:
+>After the installation we create a [script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/i-node-notify/1_noti.sh) that will be used to monitor a file or a directory:
 ```
 inotify -m directory/file-name
 ```
