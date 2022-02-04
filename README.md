@@ -233,6 +233,74 @@ url="https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
 curl ${url} -I Filename
 ```
 <br>
+
+## PROFESSIONAL MENUS
+>First we look at the *select* loop
+```
+#! /usr/bin/bash
+select car in TOYOTA TESLA MARUTI TATAMOTORS
+do 
+        echo "You have selected $car as your favorite option!!"
+done
+```
+>Now instead of echoing out the output we can write switch statements 
+```
+#! /usr/bin/bash
+select car in TOYOTA TESLA MARUTI TATAMOTORS
+do 
+        case $car in 
+        TOYOTA) 
+                    echo "You selected $car as your option!!";;
+        TESLA) 
+                    echo "You selected $car as your option!!";;
+        MARUTI) 
+                    echo "You selected $car as your option!!";;
+        TATAMOTORS) 
+                    echo "You selected $car as your option!!";;
+        *)
+                    echo "Please enter a valid choice!!";;
+        esac
+        
+done
+```
+>In the below code after the function body we see that there is a *while loop*
+```
+#! /usr/bin/bash
+function FuncCar(){
+    select car in TOYOTA TESLA MARUTI TATAMOTORS
+    do 
+            case $car in 
+            TOYOTA) 
+                        echo "You selected $car as your option!!";;
+            TESLA) 
+                        echo "You selected $car as your option!!";;
+            MARUTI) 
+                        echo "You selected $car as your option!!";;
+            TATAMOTORS) 
+                        echo "You selected $car as your option!!";;
+            *)
+                        echo "Please enter a valid choice!!";;
+            esac
+            
+    done
+}
+
+echo "press any ket to continue"
+while [ true ]
+do 
+    read -t 3 -n 1
+    if [ $? = 0 ]
+    then 
+        echo "you have terminated the script"
+        FuncCar
+        exit;
+    else
+        echo "Waiting for you to press a key!!!"
+    fi
+done
+```
+>After the while loop we in the while body we have read command with a flag -t which stands for the time<br> That is "-t 3 -n" together means after 3 seconds interval go to a new line and execute the code in the loop.
+<br>
 <br>
 
 # NOTES
