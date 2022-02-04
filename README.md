@@ -243,6 +243,26 @@ do
         echo "You have selected $car as your favorite option!!"
 done
 ```
+>Now instead of echoing out the output we can write switch statements 
+```
+#! /usr/bin/bash
+select car in TOYOTA TESLA MARUTI TATAMOTORS
+do 
+        case $car in 
+        TOYOTA) 
+                    echo "You selected $car as your option!!";;
+        TESLA) 
+                    echo "You selected $car as your option!!";;
+        MARUTI) 
+                    echo "You selected $car as your option!!";;
+        TATAMOTORS) 
+                    echo "You selected $car as your option!!";;
+        *)
+                    echo "Please enter a valid choice!!";;
+        esac
+        
+done
+```
 <br>
 <br>
 
