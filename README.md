@@ -342,7 +342,7 @@ grep -i -v stringToBeSearched fileInWhichStringIsToBeSearched
 <br>
 
 ## AWK
->AWK is a scripting language that is used to manupilate data and generating reports<br>It makes it easier for string manupilation and arthimetic operations<br>Just like bash which has an extension of .sh awk has na extension of .awk<br>Utility that is tiny but powerful<br>Writing our [First Program]() to print everything in the [raw file](https://github.com/sagar98cyber/bash-scripting-cheatsheet/edit/grep/rawData.txt) <br> [Second program]() is to print the lines in which **Linux** exists!<br>[Third Program ]() is if we want to display 2 word of a line or 3 word of a line then we use this script.
+>AWK is a scripting language that is used to manupilate data and generating reports<br>It makes it easier for string manupilation and arthimetic operations<br>Just like bash which has an extension of .sh awk has na extension of .awk<br>Utility that is tiny but powerful<br>Writing our [First Program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/awk-commands/1_awkScript.sh) to print everything in the [raw file](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/awk-commands/raw.txt) <br> [Second program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/awk-commands/2_awkScript.sh) is to print the lines in which **Linux** exists!<br>[Third Program ](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/awk-commands/3_awkScript.sh) is if we want to display 2 word of a line or 3 word of a line then we use this script.
 <br>
 ## 
 <br>
