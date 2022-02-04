@@ -209,27 +209,27 @@ Body: Greetings
 
 ## CURL
 ```
-url = "https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
+url="https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
 CURL ${url}
 ```
 >the above command is used to download different stuff from the URL
 ```
-url = "https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
+url="https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
 curl ${url} -O
 ```
 >The above command with flag -O is used to download the file with the orginal filename as stored in the remote location
 ```
-url = "https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
+url="https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
 curl ${url} -o Filename
 ```
 >The above command with flag -o: where o represents options, with -o we append the filename which would be given to the file being downloaded.<br> An Alternative to the above command is:
 ```
-url = "https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
+url="https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
 curl ${url} > Filename
 ```
 >The below command is used to download the header(if you want to check if a 10GB of file is the exact one that you are looking for or not then you dont necessarily have to download the entire file to check, you can just download the header of the file) of the file. 
 ```
-url = "https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
+url="https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
 curl ${url} -I Filename
 ```
 <br>
