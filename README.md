@@ -346,7 +346,7 @@ grep -i -v stringToBeSearched fileInWhichStringIsToBeSearched
 <br>
 
 ## SCREEN EDITOR
->Also used for string and data manupilation<br>In [first program]() we substitute where we replace 'i' with 'I'. 's/i/I/g' where s is for substitute 'i' is to replace with the 'I' and 'g' stands for global <br>[Second program]() is just another way to achieve the same thing<br>If noticed carefully it does not really make any changes in the [raw.txt](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/awk-commands/raw.txt) file so instead of making changes in the existing file it is recommended that we save the output in a different file<br> Following code of the [third program]() will help you for that.
+>Also used for string and data manupilation<br>In [first program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/sed-scripts/1_sedScript.sh) we substitute where we replace 'i' with 'I'. 's/i/I/g' where s is for substitute 'i' is to replace with the 'I' and 'g' stands for global <br>[Second program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/main/2_sedScript.sh) is just another way to achieve the same thing<br>If noticed carefully it does not really make any changes in the [raw.txt](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/awk-commands/raw.txt) file so instead of making changes in the existing file it is recommended that we save the output in a different file<br> Following code of the [third program](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/sed-scripts/3_sedScript.sh) will help you for that.
 <br>
 <br>
 
