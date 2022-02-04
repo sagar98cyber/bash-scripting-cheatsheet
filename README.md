@@ -263,6 +263,7 @@ do
         
 done
 ```
+>In the below code after the function body we see that there is a *while loop*
 ```
 #! /usr/bin/bash
 function FuncCar(){
@@ -298,6 +299,7 @@ do
     fi
 done
 ```
+>After the while loop we in the while body we have read command with a flag -t which stands for the time<br> That is "-t 3 -n" together means after 3 seconds interval go to a new line and execute the code in the loop.
 <br>
 <br>
 
