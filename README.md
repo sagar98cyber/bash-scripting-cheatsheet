@@ -233,6 +233,17 @@ url="https://github.com/sagar98cyber/bash-scripting-cheatsheet.git"
 curl ${url} -I Filename
 ```
 <br>
+
+## PROFESSIONAL MENUS
+>First we look at the *select* loop
+```
+#! /usr/bin/bash
+select car in TOYOTA TESLA MARUTI TATAMOTORS
+do 
+        echo "You have selected $car as your favorite option!!"
+done
+```
+<br>
 <br>
 
 # NOTES
