@@ -354,6 +354,19 @@ grep -i -v stringToBeSearched fileInWhichStringIsToBeSearched
 bash +x ./scriptName.sh
 ```
 >use the above command to debugg your script
+```
+#! /usr/bin/bash -x
+```
+> Appending the '-x' flag to your bash location at the start of the script will make you debugg your script as well
+```
+set-x
+---------------
+---------------
+---------------
+---------------
+set +x
+``` 
+>The above method is used to set a start point and an end point which basically means that the program between the set -x and set +x will be debugged
 <br>
 <br>
 
