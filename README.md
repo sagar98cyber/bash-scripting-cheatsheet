@@ -301,6 +301,18 @@ done
 ```
 >After the while loop we in the while body we have read command with a flag -t which stands for the time<br> That is "-t 3 -n" together means after 3 seconds interval go to a new line and execute the code in the loop.
 <br>
+
+## I NODE NOTIFY - iNOTIFY
+> It is basically a notification facility that alerts you on changes in files and directories<br>In other words it is used to monitor files and directories.<br>First of all we have to install iNotify with:
+```
+sudo apt install inotify-tools
+```
+#### *NOTE*: We can either monitor the directory or file that has been created or for learning purpose include a file or a directory that has already been created
+>After the installation we create a [script]() that will be used to monitor a file or a directory:
+```
+inotify -m directory/file-name
+```
+<br>
 <br>
 
 # NOTES
