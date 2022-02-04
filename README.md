@@ -313,6 +313,12 @@ sudo apt install inotify-tools
 inotify -m directory/file-name
 ```
 <br>
+
+## GREP COMMAND
+```
+grep stringToBeSearched fileInWhichStringIsToBeSearched
+```
+>The above command is used to search for a string<br>We can also accomplish other tasks for example counting the occurences of the string in the file or to cat everything except that string that is to be searched<br> All this can be accomplished with the help of different flags<br>Let's take an example, first we need a file filled with [raw data]() that is to be examined, then we run grep in the file by giving the appropriate locations in the [script]()
 <br>
 
 # NOTES
