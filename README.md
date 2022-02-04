@@ -160,10 +160,52 @@ variableName = ('Value1','Value2','Value3')
 > Line 7 shows how to find out the size of the array<br>
 > We use unset method to discard the value at the index 1 
 <br>
-<br>
 
 ## FUNCTIONS
 > [First](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/functions/1_Function.png) function example shows how to define and call a function<br> [Second](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/functions/2_Function.png) function example shows how to define and call an argumentative function<br>
+<br>
+
+## FILES AND DIRECTORIES
+```
+mkdir -p <directory-name> 
+```
+>Using mkdir command in the script to create a new directory in the current directory<br>[Example](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/1.png)
+### To check if the directory exists or not
+> [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/2_check%20if%20the%20dir%20exists.png)<br>
+### To create file with a parameter name
+> [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/3creating%20file.png)<br>
+### To create a file if does not exist and then appending the data in the file
+> [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/4creating%20file.png)<br>
+### To read from a file if it exist
+> [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/5reading%20froma%20file.png)<br>
+<br>
+
+## SENDING MAIL THROUGH BASH SCRIPT
+>First of all we need to install smtp service which stands for (SIMPLE MAIL TRANSFER PROTOCOL), use the below command to do so
+```
+sudo apt install ssmtp
+```
+> After the installation go to you email and turn on *'Access for less secure apps'* from the account settings.<br> After that we shall configure our smtp config file which will have the ID and PASSWORD and other login credentials.<br> Use the below command to open the smtp config file:
+```
+gedit /etc/ssmtp/ssmtp.conf
+```
+>It shall open the config file<br> Type the below code and replace the details with your details accordingly:
+```
+root = yourEmail@domain.extension
+mailhub = smtp.domain.extension:587
+AuthUser = yourEmail@domain.extension
+AuthPass = yourPassword
+UseSTARTTLS = yes
+```
+>[Example for the same](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/ssmtp.conf)<br> Save and exit the editor and to back to the terminal.<br> After that now that we have configured the ssmtp config file we can begin writing our [script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/1_mailScript.sh)<br>After writing the script file run the script and write the below lines to send a mail:
+```
+To: destinationEmailAddress@domain.extension
+From: yourEmail@domain.extension
+cc: testingEmail@gmail.com
+Subject: TEST
+Body: Greetings
+```
+<br>
 
 # NOTES
 > To save and get out of anything press **Ctrl+D** 
