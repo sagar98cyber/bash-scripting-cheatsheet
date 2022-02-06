@@ -413,3 +413,7 @@ wget wget -O splunk-8.2.4-87e2dda940d1-Linux-x86_64.tgz 'https://download.splunk
 ```
  tar -zxvf yourTGZfile.gz
 ``` 
+>After that use the following command to start the splunk
+```
+./splunk start --accept-license
+```
