@@ -29,10 +29,9 @@ sudo mkdir hgfs
 ```
 >After that use the command 
 ```
- <!--sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other-->
   sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
 ```
-
+<!--sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other-->
 # BASH SCRIPTING CHEATSHEET
 
 ### TYPES OF SHELLS AVAILABLE
