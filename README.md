@@ -6,13 +6,13 @@
 
 >run these commands in root terminal else it might give you some weird error<br>
 ```
+apt-get update && apt-get upgrade -y
+```
+```
 apt-get -y install open-vm-tools-desktop && reboot
 ```
 ```
  apt-get -y install fuse  
-```
-```
-apt-get update && apt-get upgrade -y
 ```
 
 ### Adding a shared drive in vmware
