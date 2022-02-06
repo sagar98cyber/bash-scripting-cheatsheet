@@ -409,11 +409,25 @@ set +x
 ```
 wget wget -O splunk-8.2.4-87e2dda940d1-Linux-x86_64.tgz 'https://download.splunk.com/products/splunk/releases/8.2.4/linux/splunk-8.2.4-87e2dda940d1-Linux-x86_64.tgz'
 ```
->After the dowload use the below command to install 
+>After the dowload use the below command to install<br>Make sure that you have the root previleges and that you are in the '/' folder while using this command 
 ```
  tar -zxvf yourTGZfile.gz
 ``` 
->After that use the following command to start the splunk
+>After installation check if you have the splunk installed and have all its respective directories like 'bin', 'etc'
+```
+cd /splunk
+```
+```
+ls
+```
+```
+cd bin
+```
+```
+ls
+```
+>If everything is all good till here the use the following command to start the splunk<br>**Make sure that you are in /splunk/bin directory while using this command**
 ```
 ./splunk start --accept-license
 ```
+>After that enter the admin creation id and passward: for example for me it is user:admin and password:admin@143
