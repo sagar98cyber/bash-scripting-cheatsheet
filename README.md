@@ -372,3 +372,17 @@ set +x
 
 # NOTES
 > To save and get out of anything press **Ctrl+D** 
+### Adding a shared drive in vmware
+> First of all create a directory in windows that you want to share<br> Then Right-Click on the folder -> Properties -> Sharing -> Advanced sharing -> Check the 'Share this folder' Option -> Permissions -> Check 'Full -control' for 'Everyone'<br> Enable folder sharing in the VMWARE as 'Always Enabled'
+```
+cd /mnt
+```
+>Use the above command to move to the mnt folder then use the command
+```
+sudo mkdir hgfs
+```
+>After that use the command 
+```
+sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+```
+
