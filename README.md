@@ -403,4 +403,13 @@ set +x
 ``` 
 >The above method is used to set a start point and an end point which basically means that the program between the set -x and set +x will be debugged
 <br>
-<br>
+
+## WORKING WITH SPLUNK
+>**Note:** Make sure to perform below commands using the 'sudo su' which is using the root previlege:
+```
+wget wget -O splunk-8.2.4-87e2dda940d1-Linux-x86_64.tgz 'https://download.splunk.com/products/splunk/releases/8.2.4/linux/splunk-8.2.4-87e2dda940d1-Linux-x86_64.tgz'
+```
+>After the dowload use the below command to install 
+```
+ tar -zxvf yourTGZfile.gz
+``` 
