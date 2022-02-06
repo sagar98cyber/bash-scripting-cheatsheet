@@ -213,7 +213,7 @@ mkdir -p <directory-name>
 ### To read from a file if it exist
 > [Script](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/files-directories/5reading%20froma%20file.png)<br>
 <br>
-
+<!--
 ## SENDING MAIL THROUGH BASH SCRIPT
 >First of all we need to install smtp service which stands for (SIMPLE MAIL TRANSFER PROTOCOL), use the below command to do so
 ```
@@ -240,6 +240,7 @@ Subject: TEST
 Body: Greetings
 ```
 <br>
+-->
 
 ## CURL
 ```
