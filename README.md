@@ -4,7 +4,8 @@
 ```
 apt-get -y install open-vm-tools-desktop && reboot
 ```
-run this command<br>
+ apt-get -y install fuse  
+run these command<br>
 
 > You get can all the referencial scripts in [here](https://github.com/sagar98cyber/bash-scripting-cheatsheet/tree/shared-drive-vmware/scripts).
 
