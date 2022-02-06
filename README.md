@@ -371,7 +371,12 @@ set +x
 <br>
 
 # NOTES
-> To save and get out of anything press **Ctrl+D** 
+> To save and get out of anything press **Ctrl+D**
+<br>
+<br>
+
+> You can all the referencial scripts in [here](https://github.com/sagar98cyber/bash-scripting-cheatsheet/tree/shared-drive-vmware/scripts).
+
 ### Adding a shared drive in vmware
 > First of all create a directory in windows that you want to share<br> Then Right-Click on the folder -> Properties -> Sharing -> Advanced sharing -> Check the 'Share this folder' Option -> Permissions -> Check 'Full -control' for 'Everyone'<br> Enable folder sharing in the VMWARE as 'Always Enabled'<br> after that run the following command no matter how long it takes run this command(make sure you are in **sudo su**) in kali:
 ```
