@@ -405,6 +405,7 @@ set +x
 <br>
 
 ## WORKING WITH SPLUNK
+>Splunk is a SIEM TOOL that helps in making 'data in to moving' which means, that it follows a client-server model and collects logs from different client machines and forwards it to the reciever.<br>We have a centralized reciever that recieves the data from the variety of clients.<br>
 >**Note:** Make sure to perform below commands using the 'sudo su' which is using the root previlege:
 ```
 wget wget -O splunk-8.2.4-87e2dda940d1-Linux-x86_64.tgz 'https://download.splunk.com/products/splunk/releases/8.2.4/linux/splunk-8.2.4-87e2dda940d1-Linux-x86_64.tgz'
@@ -430,4 +431,4 @@ ls
 ```
 ./splunk start --accept-license
 ```
->After that enter the admin creation id and passward: for example for me it is user:admin and password:admin@143
+>After that enter the admin creation id and passward: for example for me it is user:admin and password:admin@143<br>After installing the splunk in your kali, you can configure it to recieve the data from the monitoring system.<br>We download a splunk universal forwarder which gathers all the data needed and forwards it to the splunk reciever.<br>For reference walkthrough use the following [tutorial](https://www.youtube.com/watch?v=CtyfptaObNs&t=1565s).
