@@ -408,7 +408,7 @@ set +x
 >Splunk is a SIEM TOOL that helps in making 'data in to moving' which means, that it follows a client-server model and collects logs from different client machines and forwards it to the reciever.<br>We have a centralized reciever that recieves the data from the variety of clients.<br>
 >**Note:** Make sure to perform below commands using the 'sudo su' which is using the root previlege:
 ```
-wget wget -O splunk-8.2.4-87e2dda940d1-Linux-x86_64.tgz 'https://download.splunk.com/products/splunk/releases/8.2.4/linux/splunk-8.2.4-87e2dda940d1-Linux-x86_64.tgz'
+wget -O splunk-8.2.4-87e2dda940d1-Linux-x86_64.tgz 'https://download.splunk.com/products/splunk/releases/8.2.4/linux/splunk-8.2.4-87e2dda940d1-Linux-x86_64.tgz'
 ```
 >After the dowload use the below command to install<br>Make sure that you have the root previleges and that you are in the '/' folder while using this command 
 ```
