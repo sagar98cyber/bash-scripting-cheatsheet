@@ -21,7 +21,7 @@ set-hostname replace-or-enter-the-desired-hostname-here
 ```
 exec bash
 ```
->Checkout the following the [image]() where in we change the servername
+>Checkout the following the [image](https://github.com/sagar98cyber/bash-scripting-cheatsheet/blob/edit-hostname/changing%20the%20server%20name.png) where in we change the servername
 
 ### Adding a shared drive in vmware
 > First of all create a directory in windows that you want to share<br> Then Right-Click on the folder -> Properties -> Sharing -> Advanced sharing -> Check the 'Share this folder' Option -> Permissions -> Check 'Full -control' for 'Everyone'<br> Enable folder sharing in the VMWARE as 'Always Enabled'<br> after that run the following command no matter how long it takes run this command(make sure you are in **sudo su**) in kali:
